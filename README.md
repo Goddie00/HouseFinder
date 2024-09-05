@@ -1,4 +1,5 @@
 # HouseFinder
+
 **HouseFinder** is a platform designed to help users find and book houses in advance for their trips. The website allows landlords to list their properties with detailed information and photos, and enables users to search for and book houses based on location, price, and other criteria. The platform aims to provide a secure experience by ensuring accurate listings and keeping records to prevent deception.
 
 ## Features
@@ -85,6 +86,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or support, please contact [your-email@example.com](mailto:gj09042003@gmail.com).
+For any questions or support, please contact:
 
----
+- **Email:** [gj09042003@gmail.com](mailto:gj09042003@gmail.com)
+- **WhatsApp:** +2348142659673
+- **Twitter:** [x.com/GodwinSuperFans](https://x.com/GodwinSuperFans)
