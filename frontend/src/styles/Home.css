@@ -1,0 +1,142 @@
+/* src/styles/Home.css */
+.welcome, .how-it-works, .what-users-say {
+    padding: 2em;
+    text-align: center;
+}
+
+.welcome h2 {
+    color: #ff6600; /* Bright orange */
+}
+
+.how-it-works h2, .what-users-say h2 {
+    color: #333; /* Dark grey for headings */
+}
+
+.how-it-works ol {
+    list-style-type: decimal;
+    padding-left: 0;
+}
+
+.how-it-works li {
+    margin-bottom: 1em;
+}
+
+.what-users-say blockquote {
+    background: #f4f4f4; /* Light grey background */
+    border-left: 5px solid #ff6600; /* Bright orange border */
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 600px;
+    font-style: italic;
+}
+
+.what-users-say footer {
+    text-align: right;
+    font-weight: bold;
+    color: #333; /* Dark grey for footer text */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark grey text */
+    background-color: #f8f8f8; /* Soft white background */
+}
+
+header {
+    background-color: #333; /* Dark grey background for header */
+    color: #fff; /* White text for header */
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff; /* White text for navigation links */
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.start-search-button {
+    padding: 0.75em 1.5em;
+    font-size: 1.25em;
+    background-color: #ff6600; /* Bright orange button */
+    color: #fff; /* White text on button */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Prevents the button from being underlined */
+}
+
+.hero {
+    background: url('assets/hero-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #fff; /* White text for hero heading */
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.hero button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #ff6600; /* Bright orange button */
+    color: #fff; /* White text on button */
+    border: none;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    background-color: #f4f4f4; /* Light grey background for features section */
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature h3 {
+    color: #ff6600; /* Bright orange headings */
+    margin-bottom: 0.5em;
+}
+
+.popular-locations {
+    padding: 2em;
+    text-align: center;
+}
+
+.location-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    width: 30%;
+}
+
+.location img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333; /* Dark grey background for footer */
+    color: #fff; /* White text for footer */
+    text-align: center;
+    padding: 1em;
+}
